@@ -1,0 +1,33 @@
+body {
+    background-color: rgba(22, 125, 199, 0.467);
+    font-family: "Trebuchet MS", "Courier New", "Times New Roman";
+    font-size: 16px;
+  }
+  h1 {
+    color: #1cce3ae3;
+    font-size: 44px;
+    font-weight: bold;
+  }
+  .qualities {
+    color: rgb(30, 27, 209);
+  }
+  .special {
+    font-style: italic;
+  }
+  #lastElements {
+    color: #f34a16;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover{
+      text-decoration: underline;
+  }
+  p::first-letter{
+      font-size: 24px;
+      font-weight: bold;
+      color:#f34a16;
+  }
+  dt{
+      color: #c7e425;
+  }
