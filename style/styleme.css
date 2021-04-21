@@ -1,29 +1,23 @@
 body{
     background-color:rgba(223, 230, 235, 0.467);
-    color:rgb(66, 61, 61);
     font-family:"Trebuchet MS", "Courier New", "Times New Roman";
     font-size: 16px;
 }
-
 .title{
     color:#1cce3ae3;
     font-size: 44px;
     font-weight:bold;
 }
-
+.qualities{
+    color:rgb(164, 172, 94);
+}
 .parts{
     color:#1c3dce;
     font-size: 24px;
 }
-
-.qualities{
-    color:rgba(61, 77, 12);
-}
-
 .special{
     font-style:italic;
 }
-
 #lastElements{
     color : #f34a16;
 }
