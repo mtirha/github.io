@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="html tag">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>Registration page</title>
+    <link type="text/css" rel="stylesheet" href="style/register.css">
+</head>
+
+<body>
+
+
+
+    <section>
+
+        <form action="#" method="GET">
+
+            <section class="header">
+                <div class="container-title">Workshop Registration</div>
+            </section>
+            <br>
+            <div>Register now while seats are available ! </div><br>
+
+            <div class="container">
+
+                <div class="column">
+                    <div class="form-row">
+                        <Label>First name <span class="star">*</span></Label>
+                        <input type="text" name="firstn" required>
+                    </div><br>
+                    <div class="form-row">
+                        <Label>Last name <span class="star">*</span></Label>
+                        <input type="text" name="lastn" required>
+                    </div><br>
+                    <div class="form-row">
+                        <Label>Company/Institution <span class="star">*</span></Label>
+                        <input type="text" name="comp" required>
+                    </div><br>
+                    <div class="form-row">
+                        <Label>Address <span class="star">*</span></Label>
+                        <textarea type="text" name="adr" rows="4" required></textarea>
+                    </div><br>
+                    <div class="form-row">
+                        <Label>City</Label>
+                        <input type="text" name="cit">
+                    </div><br>
+                    <div class="form-row">
+                        <Label>State/Province/Region</Label>
+                        <select>
+                            <option value="">--Choose State--</option>
+                            <option value="NY">New York</option>
+                            <option value="IA">Iowa</option>
+                            <option value="IL">Illinois</option>
+                            <option value="CA">California</option>
+                            <option value="FL">Florida</option>
+                        </select>
+                    </div><br>
+                    <div class="form-row">
+                        <Label>Country</Label>
+                        <select>
+                            <option value="">--Choose Country--</option>
+                            <option value="US">United States</option>
+                            <option value="CA">CANADA</option>
+                            <option value="MO">MOROCCO</option>
+                        </select>
+                    </div><br>
+                    <div class="form-row">
+                        <Label>Email <span class="star">*</span></Label>
+                        <input type="email" name="email" pattern="[a-z0-9._+\-]+@[a-z0-9.\-]+\.[a-z]{2,3}" required>
+                    </div><br>
+                    <div class="form-row">
+                        <Label>Phone Number <span class="star">*</span></Label>
+                        <input type="text" name="phone" required>
+                    </div><br>
+                </div>
+
+                <div class="middle"></div>
+
+                <div class="column">
+                    <Label class="title">Lunch</Label><br><br>
+                    <div class="form-row">
+                        <Label>Diet Preference</Label>
+                        <select>
+                            <option value="">--Choose Diet--</option>
+                            <option value="V">Vegetarian</option>
+                            <option value="C">Carnivorous</option>
+                            <option value="K">Keto diet</option>
+                            <option value="H">Carbohydrate</option>
+                        </select>
+                    </div><br>
+                    <Label class="title">Payment Details</Label><br><br>
+                    <div class="form-row">
+                        <Label>Payment Mode</Label>
+                        <ul>
+                            <li> <label><input type="radio" name="pay" />Cash</label></li>
+                            <li> <label><input type="radio" name="pay" />Cheque</label></li>
+                            <li> <label><input type="radio" name="pay" />Demand Draft</label></li>
+                        </ul>
+                    </div><br><br>
+                    <div class="form-row">
+                        <Label>DD/Cheque No.</Label>
+                        <input type="text" />
+                    </div><br>
+                    <div class="form-row">
+                        <Label>Drawn On (Bank Name)</Label>
+                        <input type="text" />
+                    </div><br>
+                    <div class="form-row">
+                        <Label>Payable at</Label>
+                        <input type="date" />
+                    </div><br>
+                </div>
+
+            </div>
+
+            <section class="footer">
+                <div class="part"> </div>
+                <div class="part">
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Reset" />
+                </div>
+            </section>
+        </form>
+
+    </section>
+
+
+</body>
+
+</html>
